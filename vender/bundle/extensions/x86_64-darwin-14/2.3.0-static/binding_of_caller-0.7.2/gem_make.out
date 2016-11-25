@@ -1,0 +1,16 @@
+current directory: /Users/tsukamoto/Rails/democonnect/vender/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+/Users/tsukamoto/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20161124-7126-1hgammf.rb extconf.rb
+
+current directory: /Users/tsukamoto/Rails/democonnect/vender/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/tsukamoto/Rails/democonnect/vender/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /Users/tsukamoto/Rails/democonnect/vender/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.

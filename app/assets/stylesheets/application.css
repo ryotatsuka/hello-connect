@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+.globalNav {
+    list-style: none;
+    overflow: hidden;
+}
+ 
+.globalNav li {
+    float: left;
+    display: block;
+    padding: 10px 15px;
+    background-color: lightblue;
+}
+ 
+.globalNav li a {
+
+}

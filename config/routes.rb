@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
 
+
   get 'locks/show'
   get 'toppage/index'
   get '/'=> redirect('toppage/index')
+
+  resources :events
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -4,7 +4,7 @@
 /.bundle
 
 # Ignore bundler gems.
-vendor/bundle
+vendor/bundle/
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
@@ -12,7 +12,7 @@ vendor/bundle
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
-/tmp
+/tmp/
 
 # Ignore other unneeded files.
 doc/

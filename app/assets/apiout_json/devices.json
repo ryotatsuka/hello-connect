@@ -1,0 +1,253 @@
+{
+  "data": [
+    {
+      "type": "lock",
+      "attributes": {
+        "name": "LS-6i - AC000W000631773",
+        "serial_number": "AC000W000631773",
+        "heartbeat_interval": 1200,
+        "wifi_level": 50,
+        "connected": false,
+        "alive": true,
+        "power_source": "alkaline_battery",
+        "connected_at": "2016-11-23T20:04:50Z",
+        "wake_wifi": true,
+        "muted": false,
+        "auto_lock": true,
+        "auto_lock_timeout": 20,
+        "programming_code": "123456",
+        "state": "locked",
+        "power_level": 50,
+        "created_at": "2016-11-23T20:09:50Z",
+        "updated_at": "2016-11-23T20:09:50Z",
+        "default_guest_start_time": null,
+        "default_guest_end_time": null,
+        "local_pins": [
+          "99999"
+        ],
+        "model_id": "f84a18f9-ca37-44e3-94b4-fe6e91e3c6e7",
+        "location_id": "4841f22c-dbc8-460b-ad33-18a082655cd2"
+      },
+      "id": "af9c95f1-2bdf-4351-889d-ac84ada29718",
+      "links": {
+        "self": "http://api.lockstate.dev/devices/af9c95f1-2bdf-4351-889d-ac84ada29718",
+        "model": "http://api.lockstate.dev/models/f84a18f9-ca37-44e3-94b4-fe6e91e3c6e7",
+        "location": "http://api.lockstate.dev/locations/4841f22c-dbc8-460b-ad33-18a082655cd2"
+      }
+    },
+    {
+      "type": "resort_lock",
+      "attributes": {
+        "name": "RL-4000 - 0QDGQK8H0B4FBE01",
+        "serial_number": "0QDGQK8H0B4FBE01",
+        "default_guest_start_time": null,
+        "default_guest_end_time": null,
+        "created_at": "2016-11-23T20:09:50Z",
+        "updated_at": "2016-11-23T20:09:50Z",
+        "model_id": "ea1a74fe-784d-4391-9934-c6d38fe05dfc",
+        "location_id": "4841f22c-dbc8-460b-ad33-18a082655cd2"
+      },
+      "id": "8f237cda-3d13-4f33-8c6b-197e1e5cb7e6",
+      "links": {
+        "self": "http://api.lockstate.dev/devices/8f237cda-3d13-4f33-8c6b-197e1e5cb7e6",
+        "model": "http://api.lockstate.dev/models/ea1a74fe-784d-4391-9934-c6d38fe05dfc",
+        "location": "http://api.lockstate.dev/locations/4841f22c-dbc8-460b-ad33-18a082655cd2"
+      }
+    },
+    {
+      "type": "acs_reader",
+      "attributes": {
+        "name": "Industrial, Baby & Computers",
+        "sio": 22,
+        "number_of_retries": 5,
+        "lockout_time": 120,
+        "data_1_data_0_wiegand_pulses": true,
+        "trim_zero_bits": true,
+        "format_to_nibble_array": false,
+        "allow_bi_directional_mag_decode": false,
+        "allow_northern_mag_decode": false,
+        "casi_1_wire_f2f": false,
+        "keypad_mode": "hid_4bit_keypad_format",
+        "led_drive_mode": "generic_1_wire_tri_state_bi_color",
+        "default_mode": "card_or_pin_required",
+        "offline_mode": "remain_in_current_mode",
+        "status": null,
+        "door_status": null,
+        "last_connection_time": null,
+        "elevator": false,
+        "created_at": "2016-11-23T20:09:50Z",
+        "updated_at": "2016-11-23T20:09:50Z",
+        "location_id": "4841f22c-dbc8-460b-ad33-18a082655cd2",
+        "controller_id": "256a7217-ba41-43e1-a844-d694baa4498c",
+        "controller_panel_id": "874d2cac-d8ba-4c44-88ff-ed3e4675c127"
+      },
+      "id": "28f98039-7565-4caf-8747-6ebea3561a0a",
+      "links": {
+        "self": "http://api.lockstate.dev/acs/readers/28f98039-7565-4caf-8747-6ebea3561a0a",
+        "location": "http://api.lockstate.dev/locations/4841f22c-dbc8-460b-ad33-18a082655cd2",
+        "controller": "http://api.lockstate.dev/acs/controllers/256a7217-ba41-43e1-a844-d694baa4498c",
+        "controller_panel": "http://api.lockstate.dev/acs/controller_panels/874d2cac-d8ba-4c44-88ff-ed3e4675c127"
+      }
+    },
+    {
+      "type": "acs_reader",
+      "attributes": {
+        "name": "Sports",
+        "sio": 23,
+        "number_of_retries": 5,
+        "lockout_time": 120,
+        "data_1_data_0_wiegand_pulses": true,
+        "trim_zero_bits": true,
+        "format_to_nibble_array": false,
+        "allow_bi_directional_mag_decode": false,
+        "allow_northern_mag_decode": false,
+        "casi_1_wire_f2f": false,
+        "keypad_mode": "hid_4bit_keypad_format",
+        "led_drive_mode": "generic_1_wire_tri_state_bi_color",
+        "default_mode": "card_or_pin_required",
+        "offline_mode": "remain_in_current_mode",
+        "status": null,
+        "door_status": null,
+        "last_connection_time": null,
+        "elevator": true,
+        "created_at": "2016-11-23T20:09:50Z",
+        "updated_at": "2016-11-23T20:09:50Z",
+        "location_id": "4841f22c-dbc8-460b-ad33-18a082655cd2",
+        "controller_id": "19d9a075-cfaa-4bb8-9263-fdfe35f4fed6",
+        "controller_panel_id": "6deb8ba0-c9c0-481e-9b9b-5f6f8b95c95f"
+      },
+      "id": "f9293480-5e4c-4b58-a60d-a8f93418de8a",
+      "links": {
+        "self": "http://api.lockstate.dev/acs/readers/f9293480-5e4c-4b58-a60d-a8f93418de8a",
+        "location": "http://api.lockstate.dev/locations/4841f22c-dbc8-460b-ad33-18a082655cd2",
+        "controller": "http://api.lockstate.dev/acs/controllers/19d9a075-cfaa-4bb8-9263-fdfe35f4fed6",
+        "controller_panel": "http://api.lockstate.dev/acs/controller_panels/6deb8ba0-c9c0-481e-9b9b-5f6f8b95c95f"
+      }
+    },
+    {
+      "type": "camera",
+      "attributes": {
+        "name": "LS-PTC300 -",
+        "serial_number": "TVYQ9XQDMIE7CC19E7DZ7",
+        "created_at": "2016-11-23T20:09:50Z",
+        "updated_at": "2016-11-23T20:09:50Z",
+        "location_id": "4841f22c-dbc8-460b-ad33-18a082655cd2",
+        "model_id": "01a10a60-8ed8-4aef-943c-eb9623768851"
+      },
+      "id": "c84cca16-eae6-4fef-ab81-b8a7841a583e",
+      "links": {
+        "self": "http://api.lockstate.dev/cameras/c84cca16-eae6-4fef-ab81-b8a7841a583e",
+        "location": "http://api.lockstate.dev/locations/4841f22c-dbc8-460b-ad33-18a082655cd2",
+        "model": "http://api.lockstate.dev/models/01a10a60-8ed8-4aef-943c-eb9623768851"
+      }
+    },
+    {
+      "type": "lock",
+      "attributes": {
+        "name": "LS-DB500i - 20F85E000Y2F",
+        "serial_number": "20F85E000Y2F",
+        "heartbeat_interval": 1200,
+        "wifi_level": 50,
+        "connected": false,
+        "alive": true,
+        "power_source": "alkaline_battery",
+        "connected_at": "2016-11-23T20:04:50Z",
+        "wake_wifi": true,
+        "muted": false,
+        "auto_lock": true,
+        "auto_lock_timeout": 20,
+        "programming_code": "123456",
+        "state": "locked",
+        "power_level": 50,
+        "created_at": "2016-11-23T20:09:50Z",
+        "updated_at": "2016-11-23T20:09:50Z",
+        "default_guest_start_time": null,
+        "default_guest_end_time": null,
+        "local_pins": [
+          "99999"
+        ],
+        "model_id": "f84d629f-f2d6-4615-a1fe-222acdd5a392",
+        "location_id": "4841f22c-dbc8-460b-ad33-18a082655cd2"
+      },
+      "id": "9450c51d-a2ed-45b2-be66-34800c61e4bc",
+      "links": {
+        "self": "http://api.lockstate.dev/devices/9450c51d-a2ed-45b2-be66-34800c61e4bc",
+        "model": "http://api.lockstate.dev/models/f84d629f-f2d6-4615-a1fe-222acdd5a392",
+        "location": "http://api.lockstate.dev/locations/4841f22c-dbc8-460b-ad33-18a082655cd2"
+      }
+    },
+    {
+      "type": "thermostat",
+      "attributes": {
+        "name": "LS-60i - 001DC9A0LNR0",
+        "serial_number": "001DC9A0LNR0",
+        "heartbeat_interval": 1200,
+        "wifi_level": 50,
+        "connected": false,
+        "alive": true,
+        "power_source": "hardwire",
+        "connected_at": "2016-11-23T20:04:51Z",
+        "current_mode": "cool",
+        "target_mode": "auto",
+        "fan_mode": "auto",
+        "hold": false,
+        "temperature": 77.0,
+        "target_temperature": 75.5,
+        "unit": "F",
+        "humidity": 45,
+        "energy_saver": true,
+        "scheduled_target_temperature": 80.0,
+        "desired_target_temperature": 75.5,
+        "created_at": "2016-11-23T20:09:50Z",
+        "updated_at": "2016-11-23T20:09:50Z",
+        "model_id": "cb0167ee-41f8-4afe-81de-b04808e409b0",
+        "location_id": "4841f22c-dbc8-460b-ad33-18a082655cd2",
+        "thermostat_schedule_id": "986059f8-2dfc-4ee4-9bf6-0100fccab15a"
+      },
+      "id": "a9cec806-ef78-4f2a-8e6c-e406c3ed5ab2",
+      "links": {
+        "self": "http://api.lockstate.dev/devices/a9cec806-ef78-4f2a-8e6c-e406c3ed5ab2",
+        "model": "http://api.lockstate.dev/models/cb0167ee-41f8-4afe-81de-b04808e409b0",
+        "location": "http://api.lockstate.dev/locations/4841f22c-dbc8-460b-ad33-18a082655cd2",
+        "thermostat_schedule": "http://api.lockstate.dev/schedules/986059f8-2dfc-4ee4-9bf6-0100fccab15a"
+      }
+    },
+    {
+      "type": "power_plug",
+      "attributes": {
+        "name": "LS-P50i - 20F85EAN1WAH",
+        "serial_number": "20F85EAN1WAH",
+        "heartbeat_interval": 1200,
+        "wifi_level": 50,
+        "connected": false,
+        "alive": true,
+        "power_source": "hardwire",
+        "connected_at": "2016-11-23T20:04:51Z",
+        "on": true,
+        "voltage": 120.0,
+        "power": 4.5,
+        "power_factor": 0.57,
+        "current": 0.06,
+        "frequency": 59.95,
+        "total_power": 8.75,
+        "occupied": true,
+        "model_id": "4d478480-3856-4eb5-860e-cb21bbd54559",
+        "location_id": "4841f22c-dbc8-460b-ad33-18a082655cd2",
+        "power_plug_schedule_id": "9f945381-73d5-4f5d-82a5-d3f41cd12bcf"
+      },
+      "id": "18e0ac1d-146a-4ceb-a0c9-5b7bb29564f0",
+      "links": {
+        "self": "http://api.lockstate.dev/devices/18e0ac1d-146a-4ceb-a0c9-5b7bb29564f0",
+        "model": "http://api.lockstate.dev/models/4d478480-3856-4eb5-860e-cb21bbd54559",
+        "location": "http://api.lockstate.dev/locations/4841f22c-dbc8-460b-ad33-18a082655cd2",
+        "power_plug_schedule": "http://api.lockstate.dev/schedules/9f945381-73d5-4f5d-82a5-d3f41cd12bcf"
+      }
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "per_page": 25,
+    "total_pages": 1,
+    "total_count": 8
+  }
+}

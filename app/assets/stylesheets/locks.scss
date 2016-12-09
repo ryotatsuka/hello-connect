@@ -1,3 +1,22 @@
 // Place all the styles related to the locks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.sample_01{
+width: 100%;
+border-collapse: collapse;
+}
+.sample_01 th{
+width: 25%;
+padding: 6px;
+text-align: left;
+vertical-align: top;
+color: #333;
+background-color: #eee;
+border: 1px solid #b9b9b9;
+}
+.sample_01 td{
+padding: 6px;
+background-color: #fff;
+border: 1px solid #b9b9b9;
+}

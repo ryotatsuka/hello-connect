@@ -1,2 +1,12 @@
 <h1>Locks#show</h1>
 <p>Find me in app/views/locks/show.html.erb</p>
+<p>受け取り変数 <%= @msg %>
+
+<table class="sample_01">
+  <tr><th>デバイスタイプ</th><th>デバイス名</th></tr>
+  <% @devices.each do |device| %>
+  <tr>
+    <td><p><%= h(device["type"]) %></p></td><td><p><%= h(device["attributes"]["name"]) %></p> </td>
+  </tr>
+<% end %>
+</table>

@@ -1,0 +1,86 @@
+﻿<body>
+
+<div>
+  <h1>ロックアクション</h1>
+  
+  <!--<img src="lockicon.gif">-->
+  
+  <!--ファイル読込み、中身の値が”開いた”ならば-->
+  <p>ロック解除</p>
+  
+  <!--ファイル読込み、中身の値が”閉めた”ならば-->
+  <p>ロック</p>
+  
+  
+  <input type="button" value="ファイル読込み" onClick="loadText();">
+  
+  
+  
+</div>
+
+</body>
+
+
+<!--tsunai追加-->
+
+<script>
+var xmlHttp;
+
+function callAlert(){
+	alert("アラートが出ます。");
+}
+
+
+//テキストファイル読込み
+function loadText(){
+  if (window.XMLHttpRequest){
+    xmlHttp = new XMLHttpRequest();
+  }else{
+    if (window.ActiveXObject){
+      xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }else{
+      xmlHttp = null;
+    }
+  }
+  xmlHttp.onreadystatechange = checkStatus;
+  xmlHttp.open("GET", "http://www.ajaxtower.jp/sample/readfile.txt", true);
+
+  xmlHttp.send(null);
+  
+  alert(xmlHttp.result);
+}
+
+
+//CSVファイルを読み込む関数getCSV()の定義
+function getCSV(){
+    //alert("ここまで１");
+    var req = new XMLHttpRequest(); // HTTPでファイルを読み込むためのXMLHttpRrequestオブジェクトを生成
+    req.open("get", "lock.csv", true); // アクセスするファイルを指定
+    req.send(null); // HTTPリクエストの発行
+	
+	//alert("ここまで２");
+	
+    // レスポンスが返ってきたらconvertCSVtoArray()を呼ぶ	
+    req.onload = function(){
+	convertCSVtoArray(req.responseText); // 渡されるのは読み込んだCSVデータ
+	
+    }
+}
+ 
+// 読み込んだCSVデータを二次元配列に変換する関数convertCSVtoArray()の定義
+function convertCSVtoArray(str){ // 読み込んだCSVデータが文字列として渡される
+
+    //alert("ここまで３");
+    var result = []; // 最終的な二次元配列を入れるための配列
+    var tmp = str.split("\n"); // 改行を区切り文字として行を要素とした配列を生成
+    //alert("ここまで４");
+    // 各行ごとにカンマで区切った文字列を要素とした二次元配列を生成
+    for(var i=0;i<tmp.length;++i){
+        result[i] = tmp[i].split(',');
+    }
+    //alert("ここまで５");
+    alert(result[1][1]);
+}
+
+
+</script>
